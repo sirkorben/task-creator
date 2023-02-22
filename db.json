@@ -10,13 +10,13 @@
       "id": 3,
       "text": "Finishing the Project",
       "day": "Feb 21th at 10:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 4,
       "text": "Going to bed",
       "day": "Feb 21th at 11:00pm",
-      "reminder": false
+      "reminder": true
     }
   ]
 }
