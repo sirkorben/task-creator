@@ -15,10 +15,6 @@ const TaskDetails = () => {
       const res = await fetch(`http://localhost:5000/tasks/${params.id}`);
       const data = await res.json();
 
-      // TODO: why its calling backend non stopable?
-      console.log(res);
-      console.log(data);
-
       if (res.status === 404) {
         setError("Task not found");
       }
