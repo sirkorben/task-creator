@@ -27,7 +27,7 @@ const TaskDetails = () => {
       setLoading(false);
     };
     fetchTask();
-  });
+  }, []);
 
   if (error) {
     navigate("/");
